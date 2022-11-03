@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <img alt="Vue logo" src="./assets/signature-logo-01.png" height="150">
+    <Signature />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Signature from './components/Signature.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    Signature
   }
 }
 </script>
@@ -22,7 +22,10 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  color: #D2D4DE;
+  margin-top: 20px;
+}
+body {
+  background: #1C2527;
 }
 </style>
